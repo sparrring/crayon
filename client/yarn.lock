@@ -2573,6 +2573,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/sockjs-client@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "@types/sockjs-client@npm:1.5.1"
+  checksum: 4daa30aa5a31fddf60a87ecd412ae7bdf64eb2870b07de394d3b274c10cb5521f607903e178ab0fad83482f1ac7ba841ade5fd538ceb098152004cc365d83fa2
+  languageName: node
+  linkType: hard
+
 "@types/source-list-map@npm:*":
   version: 0.1.2
   resolution: "@types/source-list-map@npm:0.1.2"
@@ -4927,10 +4934,12 @@ __metadata:
     "@types/node": ^12.0.0
     "@types/react": ^17.0.0
     "@types/react-dom": ^17.0.0
+    "@types/sockjs-client": ^1.5.1
     react: ^17.0.2
     react-dom: ^17.0.2
     react-scripts: 4.0.3
     redux-saga: ^1.1.3
+    sockjs-client: ^1.5.2
     typescript: ^4.1.2
     web-vitals: ^1.0.1
   languageName: unknown
@@ -13487,6 +13496,20 @@ resolve@1.18.1:
   languageName: node
   linkType: hard
 
+"sockjs-client@npm:^1.5.2":
+  version: 1.5.2
+  resolution: "sockjs-client@npm:1.5.2"
+  dependencies:
+    debug: ^3.2.6
+    eventsource: ^1.0.7
+    faye-websocket: ^0.11.3
+    inherits: ^2.0.4
+    json3: ^3.3.3
+    url-parse: ^1.5.3
+  checksum: b3c3966ca8ebe72454e3bbb83b21b0f58dda1c725815f2897162104afc42b779de9a6d964fb2b164ea290cb4c0c94cb3542bd7f788f21fe5df018da963826f96
+  languageName: node
+  linkType: hard
+
 "sockjs@npm:^0.3.21":
   version: 0.3.21
   resolution: "sockjs@npm:0.3.21"
@@ -14803,6 +14826,16 @@ typescript@^4.1.2:
     querystringify: ^2.1.1
     requires-port: ^1.0.0
   checksum: ce5c400db52d83b941944502000081e2338e46834cf16f2888961dc034ea5d49dbeb85ac8fdbe28c3fe738c09320a71a2f6d9286b748895cd464b1e208b6b991
+  languageName: node
+  linkType: hard
+
+"url-parse@npm:^1.5.3":
+  version: 1.5.3
+  resolution: "url-parse@npm:1.5.3"
+  dependencies:
+    querystringify: ^2.1.1
+    requires-port: ^1.0.0
+  checksum: c6b32fff835e43f3b1b4150239f459744f0ab1a908841dbfecbfc79bf67f4d6c8d9af1841d0c6d814d45bfa08525cc29312a0bef31db7aa894306b3db07e4ee0
   languageName: node
   linkType: hard
 
