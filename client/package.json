@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "crayon-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
