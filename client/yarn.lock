@@ -1526,7 +1526,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.9.2":
   version: 7.15.4
   resolution: "@babel/runtime@npm:7.15.4"
   dependencies:
@@ -1975,6 +1975,82 @@ __metadata:
     webpack-plugin-serve:
       optional: true
   checksum: 36a7b0c63f0aabde856a2b43f3f3bfa7919920afa67b4fbcf7d4980b286c7c11e34ada13654d81bf30c3d3e2c12a5b9eef6c15e21a200003b8030809d3ddd6c6
+  languageName: node
+  linkType: hard
+
+"@redux-saga/core@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@redux-saga/core@npm:1.1.3"
+  dependencies:
+    "@babel/runtime": ^7.6.3
+    "@redux-saga/deferred": ^1.1.2
+    "@redux-saga/delay-p": ^1.1.2
+    "@redux-saga/is": ^1.1.2
+    "@redux-saga/symbols": ^1.1.2
+    "@redux-saga/types": ^1.1.0
+    redux: ^4.0.4
+    typescript-tuple: ^2.2.1
+  checksum: b90c90fcba498442631fe5913be665b6cf4efa58d9e37223fa1d4837b7bd85e1be64e156489f5824b28d91e3fa946192020216d762a5c16e4f75d802517c3cb6
+  languageName: node
+  linkType: hard
+
+"@redux-saga/deferred@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@redux-saga/deferred@npm:1.1.2"
+  checksum: 98bc41ca1cbc716b8b4d5ad3ffb2f04c7fc7298e75736cb197f1d18a084bca8a6e86c0fa547341db200695a45b15110e01d418a9ef32dc5f5ed6274b0e4f234a
+  languageName: node
+  linkType: hard
+
+"@redux-saga/delay-p@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@redux-saga/delay-p@npm:1.1.2"
+  dependencies:
+    "@redux-saga/symbols": ^1.1.2
+  checksum: 0fda0b8ce947069deb9e35824dedb2393e956174e909e2c17942c6fa519d26f79847fd295832245e80a44c9c352a7154c45ff3389ed998a6ddaee945be68580f
+  languageName: node
+  linkType: hard
+
+"@redux-saga/is@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@redux-saga/is@npm:1.1.2"
+  dependencies:
+    "@redux-saga/symbols": ^1.1.2
+    "@redux-saga/types": ^1.1.0
+  checksum: 18ff4ceb98cd57d00692841a2abb1a13d070561bb8290dd2785b65f792a55641553077231e4986c15b151c115ab5829f7346940c11dc99786dfabcaa293b021b
+  languageName: node
+  linkType: hard
+
+"@redux-saga/symbols@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@redux-saga/symbols@npm:1.1.2"
+  checksum: b75b6979a94ebc9b4db76eef84e05427e2134ca5cc0711592fab2aca621725c561213a900a75068f83b97ef85038688c36e088a07fedd8c076bf8ecfa9899044
+  languageName: node
+  linkType: hard
+
+"@redux-saga/types@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@redux-saga/types@npm:1.1.0"
+  checksum: e75a6ddc896007e76bd505dee1b3f8401464036ce9db2f4c4ac469215437d61013c17a54b9c342574bac27f2cb6ae628fe24419d17d9f85cb922181d81ec2321
+  languageName: node
+  linkType: hard
+
+"@reduxjs/toolkit@npm:^1.6.1":
+  version: 1.6.1
+  resolution: "@reduxjs/toolkit@npm:1.6.1"
+  dependencies:
+    immer: ^9.0.1
+    redux: ^4.1.0
+    redux-thunk: ^2.3.0
+    reselect: ^4.0.0
+  peerDependencies:
+    react: ^16.14.0 || ^17.0.0
+    react-redux: ^7.2.1
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-redux:
+      optional: true
+  checksum: 487e34003671b4bf3fbb983dd4d6e23ddeea0170aaefee765e38a7942b317895c8fae91a82dd698489a072c4ca8be9d317749a329ad9fb0129c3ed96f6142c18
   languageName: node
   linkType: hard
 
@@ -4435,25 +4511,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"client@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "client@workspace:."
-  dependencies:
-    "@testing-library/jest-dom": ^5.11.4
-    "@testing-library/react": ^11.1.0
-    "@testing-library/user-event": ^12.1.10
-    "@types/jest": ^26.0.15
-    "@types/node": ^12.0.0
-    "@types/react": ^17.0.0
-    "@types/react-dom": ^17.0.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-scripts: 4.0.3
-    typescript: ^4.1.2
-    web-vitals: ^1.0.1
-  languageName: unknown
-  linkType: soft
-
 "cliui@npm:^5.0.0":
   version: 5.0.0
   resolution: "cliui@npm:5.0.0"
@@ -4857,6 +4914,27 @@ __metadata:
   checksum: 6801feaa0249e9b9fdde5b3d70dc33b4f9c69095bec94d67e3fe08b66eac24dc7e2099f053597cfbc94b743de269aa5d2cfa7da3fde765433423b06bd122941a
   languageName: node
   linkType: hard
+
+"crayon-client@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "crayon-client@workspace:."
+  dependencies:
+    "@reduxjs/toolkit": ^1.6.1
+    "@testing-library/jest-dom": ^5.11.4
+    "@testing-library/react": ^11.1.0
+    "@testing-library/user-event": ^12.1.10
+    "@types/jest": ^26.0.15
+    "@types/node": ^12.0.0
+    "@types/react": ^17.0.0
+    "@types/react-dom": ^17.0.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-scripts: 4.0.3
+    redux-saga: ^1.1.3
+    typescript: ^4.1.2
+    web-vitals: ^1.0.1
+  languageName: unknown
+  linkType: soft
 
 "create-ecdh@npm:^4.0.0":
   version: 4.0.4
@@ -7727,6 +7805,13 @@ fsevents@^1.2.7:
   version: 8.0.1
   resolution: "immer@npm:8.0.1"
   checksum: 63d875c04882b862481a0a692816e5982975a47a57619698bc1bb52963ad3b624911991708b2b81a7af6fdac15083d408e43932d83a6a61216e5a4503efd4095
+  languageName: node
+  linkType: hard
+
+"immer@npm:^9.0.1":
+  version: 9.0.6
+  resolution: "immer@npm:9.0.6"
+  checksum: 75da22f3b32f3f14604eb389b4f50e84a14f2e42f306f0cbe4d2969aed54ec7fda9a7e9ca42ebae2ba73ec9bb6ec1001fafbac535accaf03860054ab0f7e8388
   languageName: node
   linkType: hard
 
@@ -12394,6 +12479,31 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"redux-saga@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "redux-saga@npm:1.1.3"
+  dependencies:
+    "@redux-saga/core": ^1.1.3
+  checksum: 4ea0bf0d4fac4a9101f2fd0798f7c93ed6646781e40dc9082ff1d4d3a9ae24ef2cadf1e3f62d27e5dcf100e2c8febf833bafd1d7033167afcb198013d0136b4a
+  languageName: node
+  linkType: hard
+
+"redux-thunk@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "redux-thunk@npm:2.3.0"
+  checksum: d13f442ffc91249b534bf14884c33feff582894be2562169637dc9d4d70aec6423bfe6d66f88c46ac027ac1c0cd07d6c2dd4a61cf7695b8e43491de679df9bcf
+  languageName: node
+  linkType: hard
+
+"redux@npm:^4.0.4, redux@npm:^4.1.0":
+  version: 4.1.1
+  resolution: "redux@npm:4.1.1"
+  dependencies:
+    "@babel/runtime": ^7.9.2
+  checksum: 99519438a5d20b69404ad3816307ccc189f16df04b64c50d82c415ec488ea68b656d7a2fc81b6345e8d90f095344dfea68246500f72613d76464986660bc0485
+  languageName: node
+  linkType: hard
+
 "regenerate-unicode-properties@npm:^8.2.0":
   version: 8.2.0
   resolution: "regenerate-unicode-properties@npm:8.2.0"
@@ -12617,6 +12727,13 @@ fsevents@^1.2.7:
   version: 1.0.0
   resolution: "requires-port@npm:1.0.0"
   checksum: eee0e303adffb69be55d1a214e415cf42b7441ae858c76dfc5353148644f6fd6e698926fc4643f510d5c126d12a705e7c8ed7e38061113bdf37547ab356797ff
+  languageName: node
+  linkType: hard
+
+"reselect@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "reselect@npm:4.0.0"
+  checksum: ac7dfc9ef2cdb42b6fc87a856f3ce904c2e4363a2bc1e6fb7eea5f78902a6f506e4388e6509752984877c6dbfe501100c076671d334799eb5a1bfe9936cb2c12
   languageName: node
   linkType: hard
 
@@ -14469,6 +14586,31 @@ resolve@1.18.1:
   version: 0.0.6
   resolution: "typedarray@npm:0.0.6"
   checksum: 33b39f3d0e8463985eeaeeacc3cb2e28bc3dfaf2a5ed219628c0b629d5d7b810b0eb2165f9f607c34871d5daa92ba1dc69f49051cf7d578b4cbd26c340b9d1b1
+  languageName: node
+  linkType: hard
+
+"typescript-compare@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "typescript-compare@npm:0.0.2"
+  dependencies:
+    typescript-logic: ^0.0.0
+  checksum: d6c43213e7689f8519438b6deceb9877cdc83b4f64677bbc07e6d88d8b63bee713035731678facfd3f81b019b93131a876a230194b4f8d31737bfc5af71594d2
+  languageName: node
+  linkType: hard
+
+"typescript-logic@npm:^0.0.0":
+  version: 0.0.0
+  resolution: "typescript-logic@npm:0.0.0"
+  checksum: 84506bd58b7e15455b3233ded7f43f2ff8667500dca94f8e96e61aa16fa5a78bd9c45455f27c49f0e4aee7322c3e5a4b270e68bf8ba29fdf1571256fe2607152
+  languageName: node
+  linkType: hard
+
+"typescript-tuple@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "typescript-tuple@npm:2.2.1"
+  dependencies:
+    typescript-compare: ^0.0.2
+  checksum: 7f9620d6b5c895b2b2a61817b27c6fb32c23fd3f47fef6aef202f387b7d82f2d49a2bab96f9a25b512b8718a70d38a2898a0dfdca623136f7aa9a5b17331da71
   languageName: node
   linkType: hard
 
