@@ -1,13 +1,13 @@
 /* Example dependencies */
-import React from 'react'
+import React from 'react';
 
 /* Increment dependencies */
-import { useAppDispatch, useAppSelector } from 'App/hooks'
-import { decrement, increment } from './counterSlice'
+import { useAppDispatch, useAppSelector } from 'App/hooks';
+import { decrement, increment } from './counterSlice';
 
 function Counter() {
-  const count = useAppSelector(state => state.counter.value)
-  const dispatch = useAppDispatch()
+  const count = useAppSelector((state) => state.counter.value);
+  const dispatch = useAppDispatch();
 
   return (
     <div>
@@ -27,7 +27,7 @@ function Counter() {
         </button>
       </div>
     </div>
-  )
+  );
 }
 
-export default Counter
+export default Counter;

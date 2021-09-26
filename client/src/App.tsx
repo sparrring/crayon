@@ -2,7 +2,7 @@
 import React from 'react';
 
 /* Internal dependencies */
-import Counter from './features/counter/Counter'
+import Counter from 'Features/counter/Counter';
 
 function App() {
   return (
