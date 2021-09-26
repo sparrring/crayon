@@ -2,7 +2,7 @@
 import React from 'react'
 
 /* Increment dependencies */
-import { useAppDispatch, useAppSelector } from '../../app/hooks'
+import { useAppDispatch, useAppSelector } from 'App/hooks'
 import { decrement, increment } from './counterSlice'
 
 function Counter() {
