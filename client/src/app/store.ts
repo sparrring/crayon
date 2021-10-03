@@ -1,12 +1,10 @@
-/* External dependencies */
 import { configureStore } from '@reduxjs/toolkit';
 
-/* Internal dependencies */
-import counterReducer from 'Features/counter/counterSlice';
+import registerReducer from 'Features/register/registerSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    register: registerReducer,
   },
 });
 

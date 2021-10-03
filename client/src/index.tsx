@@ -1,9 +1,8 @@
-/* External dependencies */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import { ChakraProvider } from '@chakra-ui/react';
 
-/* Internal dependencies */
 import { store } from 'App/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,7 +10,9 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <ChakraProvider>
+        <App />
+      </ChakraProvider>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root'),
